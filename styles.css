@@ -24,6 +24,18 @@ body {
     text-align: right;
 }
 
+.gtext {
+    color: #38761d;
+}
+
+.rtext {
+    color: #e06666;
+}
+
+.liqbor {
+    border: 1px solid #ea9999;
+}
+
 .div1 {
     background-color: snow;
     margin: auto;
