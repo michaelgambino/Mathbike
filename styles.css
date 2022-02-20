@@ -12,7 +12,6 @@ body {
     background-color: #efefef;
     height: 100vh;
     width: 100%;
-    margin: 0px;
     display: grid;
     font-family: 'Merriweather', serif;
     font-size: 10pt;
@@ -36,7 +35,6 @@ body {
     background-color: #d9d9d9;
     height: 7px;
     padding: 0px;
-    margin: 0px;
 }
 
 table, td {
