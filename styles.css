@@ -18,12 +18,19 @@ body {
     font-size: 10pt;
 }
 
-#div1 {
+.div1 {
     background-color: snow;
     margin: auto;
     border-radius: 10px;
-    padding: 10px;
+    padding: 6px;
 }
+
+.sep {
+    background-color: #bbb;
+    width: 150px;
+    height: 4px;
+    display: inline-block;
+  }
 
 table, th, td {
     border: 5px solid snow;
@@ -32,7 +39,6 @@ table, th, td {
 }
 
 th, td {
-    background-color: #96D4D4;
     padding: 5px;
 }
 
@@ -41,5 +47,25 @@ th {
 }
 
 tr {
-    height: 22px;
+    height: 32px;
+}
+
+.c1 {
+    background-color: #9fc5e8;
+}
+
+.c2 {
+    background-color: #cfe2f3;
+}
+
+.c3 {
+    background-color: #efefef;
+}
+
+.c4 {
+    background-color: #d9ead3;
+}
+
+.c5 {
+    background-color: #f4cccc;
 }
