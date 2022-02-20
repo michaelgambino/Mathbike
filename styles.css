@@ -14,6 +14,8 @@ body {
     width: 100%;
     margin: 0px;
     display: grid;
+    font-family: 'Merriweather', serif;
+    font-size: 10pt;
 }
 
 #div1 {
@@ -24,12 +26,14 @@ body {
 }
 
 table, th, td {
-    border: 4px solid snow;
+    border: 5px solid snow;
     border-collapse: collapse;
+    text-align: left;
 }
 
 th, td {
     background-color: #96D4D4;
+    padding: 5px;
 }
 
 th {
@@ -37,5 +41,5 @@ th {
 }
 
 tr {
-    height: 21px;;
+    height: 22px;
 }
