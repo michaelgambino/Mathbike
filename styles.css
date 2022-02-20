@@ -1,0 +1,17 @@
+* { /* Selects all elements */
+    box-sizing: border-box; /* Includes padding + border in element's total size */
+    margin: 0px; /* Sets the margin to default to 0 for all elements */
+    padding: 0px; /* Sets the padding to default to 0 for all elements */
+}
+
+:root { /* Selects the document's root element: <html> */
+    background-color: #efefef;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    display: grid;
+}
+    
