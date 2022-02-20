@@ -31,6 +31,26 @@ body {
     padding: 8px;
 }
 
+.grid-dir {
+    display: grid;
+    grid-template-areas: 
+        "dir calc";
+}
+
+#dir {
+    background-color: #d9ead3;
+    width: 24px;
+    margin: 4px;
+}
+
+.rotate {
+    transform: rotate(-90deg);
+    color: #999999;
+    font-size: 11pt;
+    position: relative;
+    top: 50%;
+}
+
 .h1 {
     background-color: #d9d9d9;
     height: 7px;
